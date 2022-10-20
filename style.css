@@ -1,0 +1,54 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+#searchBox {
+    display: flex;
+    justify-content: center;
+    position: sticky;
+    top: 0px;
+    background-color: beige;
+    padding: 10px;
+}
+
+#input{
+    padding: 10px;
+    margin: 0 10px;
+    width: 30vw;
+    border-radius: 50px;
+    border: 2px solid dodgerblue;
+}
+
+#btn{
+    padding: 10px;
+    width: 150px;
+    height: 40px;
+    background-color: dodgerblue;
+    color: white;
+    border-radius: 50px;
+    border: 2px solid dodgerblue;
+    cursor: pointer;
+    letter-spacing: 2px;
+}
+
+#btn:hover{
+    background-color: black;
+    border: 2px solid black;
+}
+
+#container{
+    width: 98.5vw;
+    background-color: beige;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+#img{
+    height: 75vh;
+    width: 32vw;
+    object-fit: cover;
+    margin: 5px;
+}
